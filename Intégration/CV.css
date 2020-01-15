@@ -1,0 +1,134 @@
+body {
+    margin: 30px;
+    background-color: rgb(148, 148, 148);
+}
+
+#page {
+    max-width: 826px;
+    height: 1169px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+#vertical-sidebar {
+    float: left;
+    height: 100%;
+    width: 30%;
+    margin-left: 0;
+    background-color: rgb(68, 114, 196);
+}
+
+#header {
+    position: relative;
+    top: -1%;
+    left: 30%;
+    height: 15%;
+    width: 70.05%;
+    background-color: rgb(47, 85, 151);
+}
+
+#ribbon {
+    position: relative;
+    top: 40px;
+    left: -45px;
+    height: 24px;
+    width: 200px;
+    transform: rotate(-45deg);
+    background-color: rgb(255, 192, 0);
+    box-shadow: 5px 5px 10px 5px rgb(37, 64, 114);
+}
+
+.title {
+    height: 46px;
+    width: 480px;
+    border-radius: 0px 35px 35px 0px;
+    background-color: rgb(68, 114, 196);
+}
+
+#first {
+    position: relative;
+    top: 12.5%;
+    left: 30%;
+}
+
+#second {
+    position: relative;
+    top: 37.5%;
+    left: 30%;
+}
+
+#third {
+    position: relative;
+    top: 65%;
+    left: 30%;
+}
+
+#logo_ecole {
+    position: relative;
+    margin-top: 85px;
+    left: 26.25%;
+    width: 120px;
+    height: 134px;
+}
+
+.text-area {
+    color: rgb(255, 255, 255);
+    font-size: 19px;
+    font-family: Calibri;
+    text-align: center;
+}
+
+#nom {
+    font-size: 26px;
+}
+
+p{
+    margin: 7.5px;
+}
+
+#nom-age {
+    position: relative;
+    top: 3.75%;
+}
+
+#adresse {
+    position: relative;
+    top: 11.25%;
+}
+
+#telephone-mail {
+    position: relative;
+    top: 17.5%;
+}
+
+hr {
+    position: relative;
+    top: 25%;
+    width: 68%;
+    border-style: solid;
+    border-width: 1.5px;
+    border-color: rgb(255, 255, 255);
+}
+
+#langues {
+    position: relative;
+    top: 30%;
+}
+
+#engFlag {
+    position: relative;
+    margin-top: 30px;
+}
+
+#espFlag {
+    position: relative;
+    margin-top: 50px;
+}
+
+#job-research {
+    position: relative;
+    right: 20%;
+    top: 17.5%;
+    font-size: 24px;
+}

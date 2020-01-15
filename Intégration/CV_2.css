@@ -1,0 +1,30 @@
+body {
+    margin: 30px;
+    background-color: rgb(148, 148, 148);
+}
+
+#page {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 0px 0px;
+    max-width: 826px;
+    height: 1169px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+#vertical-sidebar {
+    grid-column: 1 / span 3;
+    grid-row: 1 / span 6;
+    background-color: rgb(68, 114, 196);
+}
+
+#job-research {
+    grid-column: 4 / span 7;
+    grid-row: 1.5fr;
+    background-color: rgb(47, 85, 151);
+}
+
+
